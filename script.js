@@ -191,10 +191,12 @@ function getBlock(time) {
     else {
         let i = 0
         for (const [key, value] of Object.entries(dayDict)) {
-            document.getElementById("block" + i.toString()).style.backgroundColor = "rgb(1, 114, 0)"
-            if (time > value[0] && time < value[1]) {
+            if (time > value[1]) {
+                document.getElementById("block" + i.toString()).style.backgroundColor = "rgba(1, 114, 0, 0.5)"
+            }
+            else if (time >= value[0] && time < value[1]) {
                 progress = getProgress(time, value)
-                document.getElementById("block" + i.toString()).style.background = "rgb(1, 254, 0)"
+                document.getElementById("block" + i.toString()).style.background = "rgba(1, 254, 0, 0.8)"
                 return "Block: " + key;
             }
             i++
