@@ -186,12 +186,13 @@ function getBlock(time) {
     }
     else if (time > getLastPeriod(dayDict))
     {
-      return "School is over";
+      let i = 0
       for (const [key, value] of Object.entries(dayDict)) {
             document.getElementById("block" + i.toString()).style.color = "black"
             document.getElementById("block" + i.toString()).style.backgroundColor = "rgba(34, 45, 98, 0.8)"
             i++
        }
+      return "School is over";
     }
     else {
         let i = 0
