@@ -29,7 +29,7 @@ var schedule = {
     ]
   },
   "Tuesday": {
-    "9/11 Group Advisory\n10/12 1-on-1s": [
+    "9/11 Group Advisory 10/12 1-on-1s": [
       new Date(now.getFullYear(), now.getMonth(), now.getDate(), 8, 30), 
       new Date(now.getFullYear(), now.getMonth(), now.getDate(), 8, 50)
     ],
@@ -81,7 +81,7 @@ var schedule = {
     ]
   },
   "Thursday": {
-    "10/12 Group Advisory\n9/11 1-on-1s": [
+    "10/12 Group Advisory 9/11 1-on-1s": [
       new Date(now.getFullYear(), now.getMonth(), now.getDate(), 8, 30), 
       new Date(now.getFullYear(), now.getMonth(), now.getDate(), 8, 50)
     ],
