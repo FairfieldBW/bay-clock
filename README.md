@@ -1,4 +1,4 @@
-#DEPRECATED USE: [https://github.com/FairfieldBW/clock](https://github.com/FairfieldBW/clock)
+# DEPRECATED USE: [https://github.com/FairfieldBW/clock](https://github.com/FairfieldBW/clock)
 
 # bay-clock
 
